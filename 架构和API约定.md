@@ -51,5 +51,5 @@ API 请求地址分两个部分，模块名和 API 名，类似这样：
 
 ### 通用错误ID
 
-* `missing_token`: 应当提供 Token 的请求没有提供
-* `invalid_token`: Token 失效
+* missing_token: 应当提供 Token 的请求没有提供
+* invalid_token: Token 失效
