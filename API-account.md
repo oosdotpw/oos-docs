@@ -13,7 +13,7 @@
 
 错误：
 
-* bad_username: 用户名格式不符合要求
+* `bad\_username`: 用户名格式不符合要求
 * bad_email: 邮箱地址格式不符合要求
 * bad_passwd: 密码格式不符合要求
 * username_exits: 用户名已存在
