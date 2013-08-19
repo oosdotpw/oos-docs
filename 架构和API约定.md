@@ -13,6 +13,7 @@
 * 所有 API 均使用 POST 方式请求
 * POST 请求使用 `x-www-form-urlencoded` 格式，返回信息为 `application/json` 格式
 * API 返回信息中不会有语言相关的信息，以便今后国际化
+* API 中的时间均为 Unix 时间戳
 
 ### 请求地址
 API 请求地址分两个部分，模块名和 API 名，类似这样：
