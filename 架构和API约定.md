@@ -2,7 +2,7 @@
 出于尝试新技术的目的，这次打算做到前后端彻底分离，仅通过下文制定的JSON API进行沟通。
 
 ### 前端
-(等Oran填写)
+使用 Ruby 进行开发，Web框架使用 Sinatra ，前端与后端使用 HTTP/HTTPS 进行通信，End-User 不能访问后端服务器。部署使用nginx + thin 模式。
 
 ### 后端
 使用 Go 开发，主要使用 MongoDB 做数据库，使用 memcahe 进行缓存。
