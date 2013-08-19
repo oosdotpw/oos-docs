@@ -9,9 +9,9 @@
 
 ## API 约定
 
-* API 位于单独的域名，允许所有跨域请求，因此所有 API 不会读写 Cookie.  
-* 所有 API 均使用 POST 方式请求。
-* POST 请求使用 `x-www-form-urlencoded` 格式，返回信息为 `application/json` 格式。
+* API 位于单独的域名，允许所有跨域请求，因此所有 API 不会读写 Cookie
+* 所有 API 均使用 POST 方式请求
+* POST 请求使用 `x-www-form-urlencoded` 格式，返回信息为 `application/json` 格式
 * API 返回信息中不会有语言相关的信息，以便今后国际化
 
 ### 请求地址
