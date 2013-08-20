@@ -3,13 +3,13 @@
 INPUT: 
 
     {
-       `content` : <消息内容(HTML)>
+       "content" : <消息内容(HTML)>
     }
 
 OUTPUT: 
 
     {
-       `id` : <新消息的ID>
+       "id" : <新消息的ID>
     }
 
 ###/api/post/reply (回复消息)
@@ -17,12 +17,12 @@ OUTPUT:
 INPUT: 
 
     {
-       `content` : <回复内容(MD格式)>, 
-       `reply\_post` : <回复的消息的消息ID>, 
+       "content" : <回复内容(MD格式)>, 
+       "reply\_post" : <回复的消息的消息ID>, 
     }
 
 OUTPUT: 
 
     {
-       `id` : <回复的ID>
+       "id" : <回复的ID>
     }
