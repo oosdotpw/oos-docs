@@ -86,3 +86,38 @@ OUTPUT:
 错误：
 
 * `bad_reply_post` : 消息ID错误
+
+###/api/post/fetch_by_number (以数量抓取信息流)
+
+INPUT: 
+
+    {
+        "num" : <数量>
+    }
+
+OUTPUT: 
+
+    {
+        "result" : [<消息ID的数组>]
+    }
+
+错误：
+
+* `bad_num` : 数量错误
+
+###/api/post/fetch_by_last_post (以最后一条ID抓取信息流)
+
+INPUT: 
+
+    {
+        "id": 最后一条消息ID
+     }
+OUTPUT: 
+
+     {
+         "result": [<消息ID的数组>]
+     }
+
+错误：
+
+* `bad_reply_post` : 消息ID错误
