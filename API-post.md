@@ -35,3 +35,28 @@ OUTPUT:
 
 * `bad_contect` : 回复内容不符合要求
 * `bad_reply_post` : 消息ID错误
+
+###/api/post/get_post (获取一个消息的详情)
+
+INPUT: 
+
+    {
+       "id": <消息ID>
+    }
+
+OUTPUT: 
+
+    {
+         "content": <消息内容(HTML)>, 
+         "time": <发表时间>, 
+         "replys": <评论数>, 
+         "author":{
+             "id": <用户ID>, 
+             "username": <用户名>, 
+             "avatar": <用户头像>
+         }
+    }
+
+错误：
+
+* `bad_reply_post` : 消息ID错误
