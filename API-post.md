@@ -14,7 +14,7 @@ OUTPUT:
 
 错误：
 
-* `bad\_contect`: 消息内容不符合要求
+* `bad_contect`: 消息内容不符合要求
 
 ###/api/post/reply (回复消息)
 
@@ -22,7 +22,7 @@ INPUT:
 
     {
        "content" : <回复内容(MD格式)>, 
-       "reply\_post" : <回复的消息的消息ID>, 
+       "reply_post" : <回复的消息的消息ID>, 
     }
 
 OUTPUT: 
@@ -33,5 +33,5 @@ OUTPUT:
 
 错误：
 
-* `bad\_contect`: 回复内容不符合要求
-* `bad\_reply\_post`: 消息ID错误
+* `bad_contect` : 回复内容不符合要求
+* `bad_reply_post` : 消息ID错误
