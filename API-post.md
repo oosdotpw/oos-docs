@@ -121,3 +121,16 @@ OUTPUT:
 错误：
 
 * `bad_reply_post` : 消息ID错误
+
+###/api/post/markup (标记消息)
+INPUT:
+
+     {
+         "id": <消息ID>, 
+         "type": <类型，取值：like, dislike, spam>
+     }
+
+错误：
+
+* `bad_id` : 消息ID错误
+* `bad_type` : 类型错误
