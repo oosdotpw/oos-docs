@@ -51,7 +51,6 @@ OUTPUT:
          "time": <发表时间>, 
          "replys": <评论数>, 
          "author":{
-             "id": <用户ID>, 
              "username": <用户名>, 
              "avatar": <用户头像>
          }
@@ -75,7 +74,6 @@ OUTPUT:
             "content": <评论内容(HTML)>, 
             "time": <发表时间>, 
             "author":{
-                "id": <用户ID>, 
                 "username": <用户名>, 
                 "avatar": <用户头像>
             }
