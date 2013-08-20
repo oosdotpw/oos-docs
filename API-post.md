@@ -12,6 +12,10 @@ OUTPUT:
        "id" : <新消息的ID>
     }
 
+错误：
+
+* `bad\_contect`: 消息内容不符合要求
+
 ###/api/post/reply (回复消息)
 
 INPUT: 
@@ -26,3 +30,8 @@ OUTPUT:
     {
        "id" : <回复的ID>
     }
+
+错误：
+
+* `bad\_contect`: 回复内容不符合要求
+* `bad\_reply\_post`: 消息ID错误
