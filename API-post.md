@@ -60,3 +60,29 @@ OUTPUT:
 错误：
 
 * `bad_reply_post` : 消息ID错误
+
+### /api/post/get_replys  (获取一个消息下的评论)  
+INPUT: 
+
+    {
+         "id" : <消息ID>
+    }  
+
+OUTPUT: 
+
+    {
+        "result": [{
+            "content": <评论内容(HTML)>, 
+            "time": <发表时间>, 
+            "author":{
+                "id": <用户ID>, 
+                "username": <用户名>, 
+                "avatar": <用户头像>
+            }
+          }, <更多评论>
+        ]
+    }
+
+错误：
+
+* `bad_reply_post` : 消息ID错误
