@@ -9,7 +9,7 @@
         "username": <用户名>,
         "email": <邮箱>, 
         "passwd": <密码>
-        "contect" : <联系方式（是个string，是qq还是啥前端看着办吧）>
+        "contect" : <纯文本介绍，包含联系方式>
     }
 
 错误：
