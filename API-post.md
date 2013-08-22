@@ -21,7 +21,7 @@ OUTPUT:
 INPUT: 
 
     {
-       "content" : <回复内容(MD格式)>, 
+       "content" : <回复内容(HTML格式)>, 
        "reply_post" : <回复的消息的消息ID>, 
     }
 
