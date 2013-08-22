@@ -60,6 +60,8 @@ OUTPUT:
 
 * `bad_reply_post` : 消息ID错误
 
+无需token
+
 ### /api/post/get_replys  (获取一个消息下的评论)  
 INPUT: 
 
