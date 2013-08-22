@@ -36,7 +36,7 @@ OUTPUT:
 * `bad_contect` : 回复内容不符合要求
 * `bad_reply_post` : 消息ID错误
 
-###/api/post/get(获取一个消息的详情)
+###/api/post/get_post(获取一个消息的详情)
 
 INPUT: 
 
