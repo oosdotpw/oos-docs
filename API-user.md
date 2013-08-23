@@ -10,7 +10,7 @@ OUTPUT:
 
     {
        'create_time': <创建时间>,
-       'email': <邮箱>, 
+       'avatar': <头像地址>, 
        'contact': <>(暂时无)
     }
 
