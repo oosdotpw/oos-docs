@@ -62,7 +62,7 @@ OUTPUT:
 
 无需token
 
-### /api/post/get_replys  (获取一个消息下的评论)  
+### /api/post/get_replies  (获取一个消息下的评论)  
 INPUT: 
 
     {
