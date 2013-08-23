@@ -28,6 +28,8 @@
     {
         "username": <用户名>,
         "passwd": <密码>
+        "ua" :  <User Agent>
+        "ip" :  <ip地址>
     }
 
 返回：
