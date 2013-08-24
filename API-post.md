@@ -132,5 +132,5 @@ INPUT:
 
 错误：
 
-* `bad_id` : 消息ID错误
+* `bad_reply_post` : 消息ID错误
 * `bad_type` : 类型错误
