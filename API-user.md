@@ -1,4 +1,4 @@
-### /api/user/get_user (获取用户信息)
+### /user/get_user (获取用户信息)
 
 INPUT:
 
