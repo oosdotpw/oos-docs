@@ -1,7 +1,7 @@
 ## account
 该模块处理与帐号和令牌相关的逻辑。
 
-### /api/account/signup (注册帐号)
+### /account/signup (注册帐号)
 
 请求：
 
@@ -21,7 +21,7 @@
 
 该请求不需要 Token.
 
-### /api/account/login (登录并获取 Token) 
+### /account/login (登录并获取 Token) 
 
 请求：
 
@@ -41,9 +41,9 @@
 
 该请求不需要 Token.
 
-### /api/account/logout (注销 Token)
+### /account/logout (注销 Token)
 
-### /api/account/session_info (获取会话信息)
+### /account/session_info (获取会话信息)
 
 返回：
 
