@@ -2,14 +2,12 @@
 出于尝试新技术的目的，这次打算做到前后端彻底分离，仅通过下文制定的JSON API进行沟通。
 
 ### 前端
-使用 Ruby 进行开发，Web框架使用 Sinatra ，前端与后端使用 HTTP/HTTPS 进行通信，End-User 不能访问后端服务器。部署使用nginx + thin 模式。
-
+1. 旧版使用 Ruby 进行开发，Web框架使用 Sinatra ，前端与后端使用 HTTP/HTTPS 进行通信，End-User 不能访问后端服务器。部署使用nginx + thin 模式。
+2. 新版本使用 AngularJS进行纯静态开发。
 ### 后端
 使用 Go 开发，主要使用 MongoDB 做数据库，使用 memcahe 进行缓存。
 
 ## API 约定
-
-* API 位于内网，只有前端程序可请求且外网不可访问，因此所有 API 不会读写 Cookie
 * 所有 API 均使用 POST 方式请求
 * POST 请求使用 `x-www-form-urlencoded` 格式，返回信息为 `application/json` 格式
 * API 返回信息中不会有语言相关的信息，以便今后国际化
