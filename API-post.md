@@ -1,4 +1,4 @@
-###/post/new (发新消息)
+###/api/post/new (发新消息)
 
 INPUT: 
 
@@ -16,7 +16,7 @@ OUTPUT:
 
 * `bad_content`: 消息内容不符合要求
 
-###/post/reply (回复消息)
+###/api/post/reply (回复消息)
 
 INPUT: 
 
@@ -36,7 +36,7 @@ OUTPUT:
 * `bad_content` : 回复内容不符合要求
 * `bad_reply_post` : 消息ID错误
 
-###/post/get_post(获取一个消息的详情)
+###/api/post/get_post(获取一个消息的详情)
 
 INPUT: 
 
@@ -62,7 +62,7 @@ OUTPUT:
 
 无需token
 
-### /post/get_replies  (获取一个消息下的评论)  
+### /api/post/get_replies  (获取一个消息下的评论)  
 INPUT: 
 
     {
@@ -87,7 +87,7 @@ OUTPUT:
 
 * `bad_reply_post` : 消息ID错误
 
-###/post/fetch_by_number (以数量抓取信息流)
+###/api/post/fetch_by_number (以数量抓取信息流)
 
 INPUT: 
 
@@ -105,7 +105,7 @@ OUTPUT:
 
 * `bad_num` : 数量错误
 
-###/post/fetch_by_last_post (以最后一条ID抓取信息流)
+###/api/post/fetch_by_last_post (以最后一条ID抓取信息流)
 
 INPUT: 
 
@@ -122,7 +122,7 @@ OUTPUT:
 
 * `bad_reply_post` : 消息ID错误
 
-###/post/fetch_more(获取更早的消息)
+###/api/post/fetch_more(获取更早的消息)
 
 INPUT: 
 
@@ -140,7 +140,7 @@ OUTPUT:
 * `bad_reply_post` : 消息ID错误
 
 
-###/post/markup (标记消息)
+###/api/post/markup (标记消息)
 INPUT:
 
      {
